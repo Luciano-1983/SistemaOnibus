@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class GestorUsuario {
     private List<Usuario> listaUsuario;
 
-    public GestorUsuario() { // Corrigido aqui
-        this.listaUsuario = new ArrayList<>(); // Corrigido aqui
+    public GestorUsuario() { 
+        this.listaUsuario = new ArrayList<>(); 
     }
 
     public void adicionarUsuario(Usuario usuario) {
